@@ -27,7 +27,20 @@
 .App-link {
   color: #61dafb;
 }
+/* Navbar.css */
+.custom-navbar {
+  background-color: #34495e; /* Change the background color to a desired color */
+}
 
+.custom-navbar .navbar-brand {
+  color: #ffffff; /* Change the text color of the brand */
+  /* Add any additional styles to the brand, if necessary */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #ffffff; /* Change the color of the links */
+  /* Add any additional styles to the links, if necessary */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
